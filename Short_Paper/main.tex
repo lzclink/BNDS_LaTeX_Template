@@ -1,0 +1,98 @@
+\documentclass[12pt,a4paper]{article}
+\title{Title}
+\author{Name \pgfornament[width=0.7cm]{94}}
+\date{\today}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{qrcode}
+\usepackage{pgfornament}
+\usepackage{eso-pic}
+\usepackage{tikzrput}
+\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in,xetex]{geometry}
+%\usepackage{boondox-cal}
+%\usepackage{amsmath}
+
+
+\linespread{1.3}
+
+
+% \setmainfont{texgyrepagella-regular.otf}[
+% BoldFont = texgyrepagella-bold.otf ,
+% ItalicFont = texgyrepagella-italic.otf ,
+% BoldItalicFont = texgyrepagella-bolditalic.otf ]
+
+% \setsansfont{texgyrepagella-regular.otf}[
+% BoldFont = texgyrepagella-bold.otf ,
+% ItalicFont = texgyrepagella-italic.otf ,
+% BoldItalicFont = texgyrepagella-bolditalic.otf ]
+
+% \setmonofont{texgyrepagella-regular.otf}[
+% BoldFont = texgyrepagella-bold.otf ,
+% ItalicFont = texgyrepagella-italic.otf ,
+% BoldItalicFont = texgyrepagella-bolditalic.otf ]
+
+% \usetikzlibrary{positioning, arrows.meta, chains, scopes, calc}
+% \newcommand\AtPageUpperRight[1]{\AtPageUpperLeft{%
+%  \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+%  }}%
+% \newcommand\AtPageLowerRight[1]{\AtPageLowerLeft{%
+%  \put(\LenToUnit{\paperwidth},\LenToUnit{0\paperheight}){#1}%
+%  }}%
+% \AddToShipoutPictureBG{%
+%    \AtPageUpperLeft{\put(0,-25){\pgfornament[width=1.75cm]{41}}}
+%    \AtPageUpperRight{\put(-50,-25){\pgfornament[width=1.75cm,symmetry=v]{41}}}
+%    \AtPageLowerLeft{\put(0,25){\pgfornament[width=1.75cm,symmetry=h]{41}}}
+%    \AtPageLowerRight{\put(-50,25){\pgfornament[width=1.75cm,symmetry=c]{41}}}
+% }
+
+% ------------------------------------------------------------------------------------------
+% Features 6: I provide you a fancy head at here. You can change the name or the logo here
+
+
+\fancyhf{}
+\fancyhead[L]{
+	\begin{minipage}[c]{0.06\textwidth}
+		\includegraphics[height=7.5mm]{pic\BNDS_Logo_Horizon.png}
+	\end{minipage}
+	\begin{minipage}[c]{0.4\textwidth}
+	You can write anything here.
+	\end{minipage}}
+\fancyhead[R]{Your Title / Author name}
+
+
+
+
+% ------------------------------------------------------------------------------------------
+
+
+% ------------------------------------------------------------------------------------------
+% Features 6: I provide you a fancy foot at here. You can change the name or the logo here
+
+
+\fancyfoot[L]{
+	\begin{minipage}[c]{0.06\textwidth}
+		\includegraphics[height=7.5mm]{pic\BNDS_Logo_Small.png}
+	\end{minipage}}
+\fancyfoot[R]{
+	\begin{minipage}[c]{0.06\textwidth}
+		\includegraphics[height=7.5mm]{pic\BNDS_Logo_Small.png}
+	\end{minipage}}
+\fancyfoot[C]{ \thepage }
+
+\pagestyle{fancy}
+
+% ------------------------------------------------------------------------------------------
+
+
+
+
+\begin{document}
+\maketitle
+
+\section{aa}
+frfrfrfr
+\end{document}

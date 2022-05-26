@@ -1,0 +1,34 @@
+I made this document in order to help you to find symbols in LaTex more easily. You can contrast the appeared symbols and the latex source code inside the tex file. 
+
+
+\mathbb{N} 
+\mathbb{N} 
+\mathbb{Q}
+\mathbb{R}
+\mathbb{A}
+\mathbb{C}
+\bar{x}
+\acute{x}
+\check{x}
+\grave{x}
+\breve{x}
+\ddot{x}
+\dot{x}
+\hat{x}
+\tilde{x}
+\alpha \beta \gamma \delta \epsilon \varepsilon \zeta \eta \theta \vartheta \iota \kappa \lambda \mu \nu \xi o \pi \varpi \rho \varrho \sigma \varsigma \tau \phi \varphi \chi \psi \omega A B \Gamma \varGamma \Delta \varDelta E Z H \Theta \varTheta I K \Lambda \varLambda M N \Xi \varXi O \Pi \varPi P \Sigma \varSigma T \Upsilon \varUpsilon \Phi \varPhi X \Psi \varPsi \Omega \varOmega \aleph \beth \daleth \gimel 
+\left(aa\right) 
+\left[aa\right] 
+\left\{aa\right\} 
+\left\langle aa\right\rangle 
+\left\lvert aa\right\rvert 
+\left\lVert aa\right\rVert
+\frac{a}{b}  
+\frac{d^a y}{d x^a} 
+\int_{a}^{b} c \,dx 
+\lim_{x \to \infty}  
+\sum_{n = 1}^{\infty}  
+\sqrt{a+b}
+\sqrt[n]{a+b}
+\int \oint \iint \prod \coprod \sum \biguplus \bigcap \bigcup \bigoplus \bigotimes \bigodot \bigvee \bigwedge \bigsqcup 
+\arccos \cos \csc \exp \ker \limsup \min \sinh \arcsin \cosh \deg \gcd \lg \ln \Pr \sup \arctan \cot   
